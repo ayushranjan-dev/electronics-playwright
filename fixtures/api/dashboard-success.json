@@ -1,0 +1,10 @@
+{
+  "teams": 2,
+  "clients": 5,
+  "messages": 3,
+  "totalSale": 125000,
+  "totalPaid": 80000,
+  "totalDue": 45000,
+  "todaySales": 12000,
+  "todayCollections": 5000
+}

@@ -1,0 +1,21 @@
+{
+  "name": "raj-electronics-ledger-qa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QA + Playwright automation for rajdbg1971.netlify.app",
+  "scripts": {
+    "test": "PLAYWRIGHT_BROWSERS_PATH=0 playwright test",
+    "test:headed": "PLAYWRIGHT_BROWSERS_PATH=0 playwright test --headed",
+    "test:ui": "PLAYWRIGHT_BROWSERS_PATH=0 playwright test --ui",
+    "test:mock": "PLAYWRIGHT_BROWSERS_PATH=0 playwright test tests/mock-api-harness.spec.ts",
+    "test:ci": "PLAYWRIGHT_BROWSERS_PATH=0 playwright test --reporter=list,junit,html",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^25.6.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
