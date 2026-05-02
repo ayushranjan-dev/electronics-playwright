@@ -1,7 +1,7 @@
 import { defineConfig, devices } from "@playwright/test";
 
 /**
- * Base config for Raj Electronics Ledger (Netlify).
+ * Base config for Electronics Ledger (Netlify).
  * Keeping timeouts slightly higher than default - cold starts on
  * the Netlify edge took longer than expected during local testing.
  */
